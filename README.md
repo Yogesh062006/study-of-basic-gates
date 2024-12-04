@@ -63,17 +63,39 @@ Y= A⊕B
 
 
 **PROGRAM**
+LOGIC GATES
 
+GATE LEVEL MODEL:
+module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b);
+endmodule
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:Yogesh S
+ 
+ RegisterNumber:24901108 
  
 **Logic symbol & Truthtable**
 
+![WhatsApp Image 2024-12-04 at 14 35 18_e0889dbc](https://github.com/user-attachments/assets/2cdafaa1-71fd-4944-9f0d-b4497c1de604)
+
+
 **RTL realization Output:** 
+
+![WhatsApp Image 2024-12-04 at 14 35 18_a4d121c8](https://github.com/user-attachments/assets/7fc70b45-ae54-4378-9025-b731623da03f)
 
 **RTL**
 
-**Result:**
+![WhatsApp Image 2024-12-04 at 14 35 17_c0f59694](https://github.com/user-attachments/assets/23d4b10d-4369-43db-a4c7-8a5fef7768ea)
 
+**Result:**
+Basic logic gates are the fundamental building blocks of digital circuits and are used to create complex operations in computing and electronic systems. These gates perform logical operations based on one or more binary inputs to produce a single binary output.
 
